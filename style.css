@@ -12,9 +12,9 @@ html, body {
     background-color: white;
     width: 13vw;
     height: 40vh;
-    padding: 15px 15px 15px 15px;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 20px;
-    box-shadow: 1px, 1px, 1px rgb(246, 239, 239);
+    box-shadow: 1px 1px 3px rgb(246, 239, 239);
 }
 #qr-code {
     width: 100%;
@@ -24,6 +24,7 @@ html, body {
     background-size: cover;
     border-radius: 10px;
 }
+
 #bold-message {
     width: 100%;
     height: auto;
@@ -31,9 +32,10 @@ html, body {
     font-size: large;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 5%;
+    margin-block-start: 1rem;
 
 }
+
 #unbold-message {
     width: 100%;
     height: 10px;
@@ -43,20 +45,18 @@ html, body {
     text-align: center;
     font-size: small;
 }
-@media (max-width: 375px) {
+
+@media (min-width: 0px) {
     #main-holder{
-      width: 80vw;
-      height: 74vh;
+        width: 18rem;
+        height: 30rem;
         
     }
     #unbold-message {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     #bold-message {
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
-  
-
    
-    
 }
