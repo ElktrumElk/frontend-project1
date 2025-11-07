@@ -10,8 +10,8 @@ html, body {
 
 #main-holder {
     background-color: white;
-    width: 31vw;
-    height: 55vh;
+    width: 13vw;
+    height: 40vh;
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
     box-shadow: 1px, 1px, 1px rgb(246, 239, 239);
@@ -46,14 +46,14 @@ html, body {
 @media (max-width: 375px) {
     #main-holder{
       width: 80vw;
-      height: 65vh;
+      height: 74vh;
         
     }
     #unbold-message {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     #bold-message {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
   
 
