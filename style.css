@@ -1,0 +1,62 @@
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: rgba(213, 225, 239);
+}
+
+#main-holder {
+    background-color: white;
+    width: 31vw;
+    height: 55vh;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    box-shadow: 1px, 1px, 1px rgb(246, 239, 239);
+}
+#qr-code {
+    width: 100%;
+    height: 60%;
+    background-image: url('images/image-qr-code.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#bold-message {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5%;
+
+}
+#unbold-message {
+    width: 100%;
+    height: 10px;
+    margin-top: 5%;
+    color: hsl(216, 15%, 48%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+@media (max-width: 375px) {
+    #main-holder{
+      width: 80vw;
+      height: 65vh;
+        
+    }
+    #unbold-message {
+        font-size: 1.4em;
+    }
+    #bold-message {
+        font-size: 1.5em;
+    }
+  
+
+   
+    
+}
